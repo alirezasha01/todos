@@ -1,0 +1,26 @@
+.buttonDelete{
+    background-color: rgb(249, 47, 47);
+    font-size: 13px;
+    padding: 5px;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-family: monospace;
+    margin: auto;
+}
+.buttonDelete:hover{
+    background-color: red;
+    transition: all 0.5s;
+}
+.text{
+    font-size: 20px;
+    margin: auto;
+}
+.divtodo{
+    margin-top: 10px;
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
