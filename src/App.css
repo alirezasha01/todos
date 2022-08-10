@@ -1,0 +1,40 @@
+.center{
+    text-align: center;
+}
+.input{
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px 0 0 50px;
+    outline: none;
+}
+.button{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-left: none;
+    border-radius: 0 50px 50px 0;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+.button:hover{
+    background-color:  rgb(113, 234, 104) ;
+    color: rgb(9, 0, 0) ;
+    transition: all 0.7s;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(49, 49, 49);
+    font-family: monospace;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(49, 49, 49);
+    font-family: monospace;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(49, 49, 49);
+    font-family: monospace;
+  }
