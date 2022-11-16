@@ -8,6 +8,7 @@
     border-radius: 3px;
     font-family: monospace;
     margin: auto;
+    cursor: pointer;
 }
 .buttonDelete:hover{
     background-color: red;

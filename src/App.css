@@ -17,6 +17,7 @@
     border-radius: 0 50px 50px 0;
     color: rgb(0, 0, 0);
     font-family: monospace;
+    cursor: pointer;
 }
 .button:hover{
     background-color:  rgb(113, 234, 104) ;
